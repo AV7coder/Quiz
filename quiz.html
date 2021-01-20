@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Quiz- QP</title>
+</head>
+<link rel="stylesheet" href="style(quiz).css">
+<script src="script.js"></script>
+<body>
+    <div class="app" id="app">
+        <div class="qp" id="qp">
+            <div class="q_1" id="q_1">
+            <h1>1. What is the value of &pi; ?</h1>
+            <button onclick="wrong('q_1')">3.141567391469378</button>
+            <br>
+            <button onclick="wrong('q_1')">3.141563479392313</button>
+            <br>
+            <button onclick="wrong('q_1')">3.141578927457572</button>
+            <br>
+            <button onclick="correct('q_1')">3.141592653589793</button>
+            <br>
+            <br>
+</div>
+    <div class="q_2" id="q_2">
+            <h1>2. What is the value of x in : <br>
+                y = 1234567890<br>
+                x = y * y
+            </h1>
+       
+            <button onclick="correct('q_2')">1524157875019052000</button><br>
+            <button onclick="wrong('q_2')">1524157875019050200</button><br>
+            <button onclick="wrong('q_2')">1524157875019259000</button><br>
+            <button onclick="wrong('q_2')">1523157875019052000</button><br><br>
+</div> <div class="q_3" id="q_3">
+            <h1>3. What is another equation for 1 - 1 = 2 ?</h1>
+            <button onclick="wrong('q_3')">(-1) + 1 = 2</button><br>
+            <button onclick="correct('q_3')">1 - (-1) = 2</button><br>
+            <button onclick="wrong('q_3')">2 - 1 + -1 = 1</button><br>
+            <button onclick="wrong('q_3')">0 + -2 + 2 - (-2) = 0</button><br><br></div>
+<div class="q_4" id="q_4">
+           <h1>4. What is the area of a square with perimeter 32 cm?</h1>
+            <button onclick="wrong('q_4')">64 cm</button><br>
+            <button onclick="correct('q_4')">64 sq. cm</button><br>
+            <button onclick="wrong('q_4')">8 cm</button><br>
+            <button onclick="wrong('q_4')">32 sq. cm</button><br><br></div>
+<div class="q_5" id="q_5">
+            <h1>5.  Which of the following is true ?</h1>
+            <button onclick="correct('q_5')">A square is a reactangle.</button><br>
+            <button onclick="wrong('q_5')">A rectangle is a square.</button><br>
+            <button onclick="wrong('q_5')">All of the above.</button><br>
+            <button onclick="wrong('q_5')">None of the above.</button><br><br></div>
+        </div>
+        <div class="submit-btn" id="submit-btn">
+            <button type="submit" onclick="submit()">Submit</button>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </div>
+    <div class="result" id="result">
+  
+    </div>
+</body>
+</html>

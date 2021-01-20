@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(pink, red, purple, blue, yellow, green);
+}
+.qp h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-style: italic;
+  color: black;
+}
+.qp button {
+  display: block;
+  margin: auto;
+  color: black;
+  background-color: aquamarine;
+}
+.qp button:hover {
+  color: aquamarine;
+  background-color: black;
+}
+* button {
+  font-size: large;
+}
+.submit-btn button {
+  display: block;
+  margin: auto;
+  color: aquamarine;
+  background-color: black;
+}
+.result h1 {
+  display: block;
+  margin: auto;
+}

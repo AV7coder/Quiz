@@ -1,0 +1,31 @@
+body {
+  background-image: radial-gradient(pink, red, purple, blue, yellow, green);
+}
+.image img {
+  width: auto;
+  max-width: 100px;
+  display: block;
+  margin: auto;
+  border-radius: 60%;
+}
+.about h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-style: italic;
+  color: antiquewhite;
+}
+.about h1:hover {
+  color: aquamarine;
+}
+.instructions_link a button {
+  color: aqua;
+  background-color: black;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.instructions_link a button:hover {
+  color: black;
+  background-color: aqua;
+}
